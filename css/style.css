@@ -1,0 +1,565 @@
+/* Global */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #6b6b6b;
+	background-color:#aaaaaa;
+}
+
+img {
+	max-width: 100%;
+}
+
+a:link {
+	color: #ee6557;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0298c8;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ee6557;
+	text-decoration: none;
+}
+
+p {
+	padding-bottom: 20px;
+}
+
+.button {
+	margin:20px 0;
+	padding: 15px 30px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #aaaaaa;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+}
+
+.button:link {
+	color: #ffffff;
+}
+
+.button:hover {
+	background-color: #0298c8;
+	color: #ffffff;
+}
+
+.button:active {
+	background-color: #98e5fe;
+	color: #ffffff;
+}
+
+.button:visited {
+	color: #ffffff;
+}
+
+/* Navigation */
+
+[role="banner"] {
+	background-color: #FFF;
+	height: auto;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+#logo {
+	margin: 10px 0;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#nav {
+	margin-top: 30px;
+	text-align: right;
+}
+
+.navigation {
+	float: right;
+	list-style: none;
+	margin: 0;
+}
+
+.navigation li {
+	float: left;
+	padding: 0 0 0 50px;
+}
+
+.navigation a {
+	color: #d1d1d1;
+}
+
+.navigation a:hover {
+	color: #0298c8;
+	cursor: pointer;
+}
+
+.navigation .active a {
+	color: #ee6557;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+/* General Slides */
+
+.slide {
+	background-attachment: fixed;
+	height: auto;
+	padding: 140px 0;
+	position: relative;
+	width: 100%;
+}
+
+/* Home */
+
+#home {
+	background-color: #FFF;
+	text-align: center;
+}
+
+#home h1 {
+	color: #6b6b6b;
+	font-size: 3.8em;
+	font-weight: 700;
+	letter-spacing: -3px;
+	line-height: 0;
+	margin: 1em 0;
+}
+
+#home h2 {
+	color: #6b6b6b;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 0;
+}
+
+/* What is it? */
+
+#what-is-it {
+	background-color: #ee6557;
+	background-image: url('../images/bg-slide2.png');
+	color: #FFF;
+}
+
+#what-is-it h1 {
+	color: #FFF;
+	font-size: 3.8em;
+	font-weight: 700;
+	letter-spacing: -3px;
+	line-height: 0;
+}
+
+#what-is-it h2 {
+	color: #FFF;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 0;
+	padding-bottom: 20px;
+}
+
+#what-is-it h3 {
+	font-size: 1.4em;
+}
+
+#what {
+	text-align: center;
+}
+
+#what p {
+	padding-bottom: 0px;
+}
+
+#what p.skill-description{
+	text-align: justify;
+	margin: 1em 1em;
+}
+
+#what span {
+	font-size: 1.5em;
+}
+
+/* Work */
+
+#demo h3 {
+	margin: 0em;
+}
+
+#demo h1 {
+	margin: 0.85em 0;
+}
+
+#demo div.grid_4 {
+margin: 0 1% 1% 0;
+}
+
+.lined .grid-unit.case-study-link{
+	border-bottom: 0;
+}
+
+.case-study-link:hover:nth-child(-n+3){
+	border-color: #d2d2d2;
+	border-top: 2px solid rgba(0,0,0,0.15);
+	border-bottom: 2px solid rgba(0,0,0,0.15);
+	margin-top: -2px;
+	margin-bottom: -2px!important;
+}
+
+.case-study-link a, .projects ul li a{
+	-webkit-transition: margin 250ms ease;
+	-moz-transition: margin 250ms ease;
+	-o-transition: margin 250ms ease;
+	-ms-transition: margin 250ms ease;
+	transition: margin 250ms ease;
+	position: relative;
+}
+
+.case-study-link a:hover, .projects ul li a:hover {
+	margin-top: 0.175em;
+	margin-bottom: -0.175em;
+	-webkit-transition: margin 140ms ease;
+	-moz-transition: margin 140ms ease;
+	-o-transition: margin 140ms ease;
+	-ms-accelerator-transition: margin 140ms ease;
+	transition: margin 140ms ease;
+}
+
+.case-study-link{
+	-webkit-transition:background-color 140ms ease;
+	-moz-transition:background-color 140ms ease;
+	-o-transition:background-color 140ms ease;
+	-ms-transition:background-color 140ms ease;
+	transition:background-color 140ms ease;
+}
+
+.case-study-link:hover em{
+      color: #d2d2d2;
+	  color: rgba(0,0,0,0.45)
+}
+
+.case-study-link:hover{
+	background-color: #ee6557;
+	border-top: 2px solid #d2d2d2;
+	border-top: 2px solid rgba(0,0,0,0.15);
+	margin-top: -2px;
+}
+
+.case-study-link:hover h3, .case-study-link:hover em{
+	color: #fff;
+}
+
+.case-study-link:hover:nth-child(-n+3){
+	border-top: none;
+	margin-top: 0;
+}
+
+.projects li:hover h3, .projects li:hover em{
+	color:#ee4938;
+}
+
+.projects li h3, .projects li em{
+	-webkit-transition: color 140ms ease;
+	-moz-transition: color 140ms ease;
+	-o-transition: color 140ms ease;
+	-ms-transition: color 140ms ease;
+	transition: color 140ms ease;
+}
+
+.case-study-link h3{
+		font-size: 1.325em;
+}
+
+.case-study-link a{
+	display: block;
+	padding: 0 5%;
+	margin: 0;
+	text-align: center;
+}
+
+/* Case Study Menu */
+
+.case-study-link a{
+	padding: 0% 5% 24%;
+}
+
+.case-study-link h3{
+	text-align: center;
+}
+
+.case-study-link em{
+	height: 0;
+	padding-bottom: 10%;
+	text-align: center;
+}
+
+.case-study-link img{
+	padding: 2% 0;
+	max-width: 94%;
+	margin: 0 auto;
+	width:100%;
+}
+
+
+/* Demo */
+
+#demo {
+	background-color: #FFF;
+}
+
+#demo h1 {
+	color: #6b6b6b;
+	font-size: 3.8em;
+	font-weight: 700;
+	letter-spacing: -3px;
+	line-height: 0;
+}
+
+#demo h2 {
+	color: #6b6b6b;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 0;
+	padding-bottom: 20px;
+}
+
+.test {
+	background-color: #bde2df;
+	color: #FFF;
+	font-size: 2em;
+	font-weight: 400;
+	text-align: center;
+}
+
+/* Credits */
+
+#credits {
+	background-color: #0298c8;
+	background-image: url('../images/bg-slide4.png');
+	color: #FFF;
+}
+
+#credits h1 {
+	color: #FFF;
+	font-size: 3.8em;
+	font-weight: 700;
+	letter-spacing: -3px;
+	line-height: 0;
+}
+#credits h2 {
+	color: #FFF;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 0;
+	padding-bottom: 20px;
+}
+
+#credits a {
+	color: #d1d1d1;
+	text-decoration: underline;
+}
+
+#credits a:hover {
+	color: #98e5fe;
+	text-decoration: none;
+}
+
+/* Tablet */
+
+@media screen and (max-width: 1024px) {
+
+	#logo {
+		text-align: center;
+		width: 100%;
+	}
+
+	#nav {
+		margin-bottom: 10px;
+		margin-top: 10px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.navigation {
+		float: center;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.navigation li {
+		float: left;
+		padding: 0;
+		width: 25%;
+	}
+
+	.slide {
+		background-attachment: fixed;
+		position: relative;
+		padding: 150px 0;
+		width: 100%;
+	}
+
+	#decorative {
+		display: none;
+	}
+
+	.content {
+		text-align: center;
+		width: 100%;
+	}
+
+	#home h1 {
+		line-height: 0.5em;
+	}
+
+	#home h2 {
+		line-height: 0.5em;
+	}
+
+	#what-is-it h1 {
+		line-height: 1em;
+	}
+
+	#what-is-it h2 {
+		line-height: 1em;
+	}
+
+	#demo h1 {
+		line-height: 1em;
+	}
+
+	#demo h2 {
+		line-height: 1em;
+	}
+
+	#credits h1 {
+		line-height: 1em;
+	}
+
+	#credits h2 {
+		line-height: 1em;
+	}
+
+}
+
+/* Case Study Examples */
+
+#case-study-title.slide {
+	background-attachment: fixed;
+	height: auto;
+	padding: 120px 0 40px 0;
+	position: relative;
+	width: 100%;
+}
+
+#case-study-title {
+	background-color: #ee6557;
+	background-image: url('../images/bg-slide2.png');
+	color: #FFF;
+}
+
+
+#case-study-title h1 {
+	color: #FFF;
+	font-size: 3.3em;
+	font-weight: 700;
+	letter-spacing: -1px;
+	line-height: 1em;
+	margin-bottom: 5px;
+}
+
+#case-study-title h2 {
+	color: #FFF;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 0;
+	padding-bottom: 5px;
+}
+
+#case-study-title h3 {
+	font-size: 1.4em;
+}
+
+#case-study-work {
+	background-color: #FFF;
+}
+
+#case-study-work .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+	margin: 0 1% 1% 0;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+
+	#logo {
+		text-align: center;
+	}
+
+	#nav {
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+
+	.navigation{
+		float: left;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.navigation li {
+		float: left;
+		width: 25%;
+	}
+
+	.slide {
+		background-attachment: fixed;
+		position: relative;
+		padding: 150px 0;
+		width: 100%;
+	}
+
+
+	#home h1 {
+		line-height: 1em;
+	}
+
+	#home h2 {
+		line-height: 1em;
+	}
+
+	#what-is-it h1 {
+		line-height: 1em;
+	}
+
+	#what-is-it h2 {
+		line-height: 1em;
+	}
+
+	#demo h1 {
+		line-height: 1em;
+	}
+
+	#demo h2 {
+		line-height: 1em;
+	}
+
+	#credits h1 {
+		line-height: 1em;
+	}
+
+	#credits h2 {
+		line-height: 1em;
+	}
+
+}
