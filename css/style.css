@@ -273,7 +273,7 @@ margin: 0 1% 1% 0;
 }
 
 .case-study-link h3{
-		font-size: 1.325em;
+		font-size: 1 em;
 }
 
 .case-study-link a{
@@ -286,7 +286,7 @@ margin: 0 1% 1% 0;
 /* Case Study Menu */
 
 .case-study-link a{
-	padding: 0% 5% 24%;
+	padding: 0% 0% 24%;
 }
 
 .case-study-link h3{
