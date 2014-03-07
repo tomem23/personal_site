@@ -141,6 +141,10 @@ p {
 	line-height: 0;
 }
 
+#home p {
+	text-align: justify;
+}
+
 /* What is it? */
 
 #what-is-it {
