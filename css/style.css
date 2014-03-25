@@ -342,6 +342,11 @@ margin: 0 1% 1% 0;
 }
 
 /* Credits */
+#process {
+	text-align: left;
+}
+
+/* Credits */
 
 #credits {
 	background-color: #0298c8;
