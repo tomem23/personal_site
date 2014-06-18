@@ -141,9 +141,9 @@ p {
 	line-height: 0;
 }
 
-#home p {
+/* #home p {
 	text-align: justify;
-}
+} */
 
 /* What is it? */
 
@@ -182,7 +182,6 @@ p {
 }
 
 #what p.skill-description{
-	text-align: justify;
 	margin: 1em 1em;
 }
 
