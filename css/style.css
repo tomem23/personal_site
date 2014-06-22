@@ -141,9 +141,28 @@ p {
 	line-height: 0;
 }
 
-/* #home p {
-	text-align: justify;
-} */
+.twitter {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	background: url(../images/twitter_icon.svg) no-repeat;
+}
+
+.twitter:hover {
+	background: url(../images/twitter_icon_hover.svg) no-repeat;
+}
+
+.linkedin {
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: url(../images/linkedin_icon.svg) no-repeat;
+}
+
+.linkedin:hover {
+		background: url(../images/linkedin_icon_hover.svg) no-repeat;
+}
 
 /* What is it? */
 
@@ -381,7 +400,7 @@ margin: 0 1% 1% 0;
 }
 
 #credits a:hover {
-	color: #98e5fe;
+	color: #3aa3c5;
 	text-decoration: none;
 }
 
